@@ -1,7 +1,17 @@
+import { Countdown } from "../components/Countdown";
+import { TextPomodori } from "../components/TextPomodori";
+import { VideoInfo } from "../components/Videoinfo"
+
+import styles from '../styles/Pages/Home.module.css'
+
 export default function Home() {
   return (
-    <h1>
-      hello world!
-    </h1>
+    <div className={styles.container}>
+      <section>
+        <Countdown />
+        <VideoInfo />
+      </section>
+      <TextPomodori />
+    </div>
   )
 }
