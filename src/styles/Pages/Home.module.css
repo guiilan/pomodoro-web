@@ -1,9 +1,8 @@
 
 .container {
-    height: 100vh;
     max-width: 992px;
-    margin: 0 13%;
-    padding: 2rem 0rem;
+    margin: 0 17%;
+    padding: 0rem 0rem;
     display: flex;
     flex-direction: column;
 }
@@ -14,4 +13,16 @@
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     gap: 3rem;
     align-content: center;
+}
+
+.containerTtitle {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.containerVideo {
+    display: flex;
+    justify-content: center;
 }

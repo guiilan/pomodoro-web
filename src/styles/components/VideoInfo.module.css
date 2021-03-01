@@ -1,11 +1,3 @@
 .container {
     display: flex;
 }
-
-.containerText{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: blue;
-    
-}

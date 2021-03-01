@@ -25,7 +25,7 @@ export function Countdown(){
     }, [active, time])
 
     return(
-        <div>
+        <div className={style.container}>
             <div className={style.countdownContainer}>
                 <div>
                     <span>{minuteLeft}</span>
